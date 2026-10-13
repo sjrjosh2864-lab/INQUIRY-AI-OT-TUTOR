@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INQUIRY OT Tutor - AI Mentor for Occupational Therapy Students</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Google Fonts for Medical/Academic typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="brand-logo">
+          <div class="logo-icon">🌿</div>
+          <div class="logo-text">
+            <span class="logo-title">INQUIRY OT Tutor</span>
+            <span class="logo-subtitle">TN M.G.R. Medical University (MGRU) Curriculum Aligned</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <!-- Live OT Reasoning Pathway Indicator -->
+        <div class="pathway-ticker" id="pathwayTicker" title="The Mandatory OT Clinical Reasoning Pathway">
+          <span class="ticker-label">OT PATHWAY:</span>
+          <span class="pathway-step active" data-step="1">1. Condition</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="2">2. Impairment</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="3">3. Activity</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="4">4. Participation</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="5">5. Assessment</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="6">6. Goals</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="7">7. Intervention</span>
+          <span class="pathway-arrow">→</span>
+          <span class="pathway-step" data-step="8">8. Justification</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="engine-badge" id="engineStatusBadge" title="AI Model Status">
+          <span class="status-dot online"></span>
+          <span id="engineBadgeText">Academic Engine</span>
+        </div>
+        <button class="nav-btn" id="btnOpenAnalytics" title="Student Progress & Weak Areas">
+          📊 <span>Progress</span>
+        </button>
+        <button class="nav-btn" id="btnOpenRAG" title="Textbook Knowledge Base & Upload Notes">
+          📖 <span>Library</span>
+        </button>
+        <button class="nav-btn primary" id="btnOpenSettings" title="Configure AI & Profile">
+          ⚙️ <span>Settings</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mode Selector Navigation Bar -->
+    <nav class="mode-navigation">
+      <div class="mode-tab active" data-mode="inquiry">
+        <span class="mode-icon">🧠</span>
+        <div class="mode-info">
+          <span class="mode-title">Inquiry Mode</span>
+          <span class="mode-desc">Socratic Guided Reasoning</span>
+        </div>
+      </div>
+
+      <div class="mode-tab" data-mode="tutor">
+        <span class="mode-icon">📚</span>
+        <div class="mode-info">
+          <span class="mode-title">Tutor Mode</span>
+          <span class="mode-desc">Direct Academic Teaching</span>
+        </div>
+      </div>
+
+      <div class="mode-tab" data-mode="exam">
+        <span class="mode-icon">📝</span>
+        <div class="mode-info">
+          <span class="mode-title">Exam Mode</span>
+          <span class="mode-desc">2, 5 & 10 Marks MGRU Prep</span>
+        </div>
+      </div>
+
+      <div class="mode-tab" data-mode="viva">
+        <span class="mode-icon">🎓</span>
+        <div class="mode-info">
+          <span class="mode-title">Viva Mode</span>
+          <span class="mode-desc">Rapid Oral Exam & Scoring</span>
+        </div>
+      </div>
+
+      <div class="mode-tab" data-mode="clinical_reasoning">
+        <span class="mode-icon">🩺</span>
+        <div class="mode-info">
+          <span class="mode-title">Clinical Reasoning</span>
+          <span class="mode-desc">Case Simulator & Pathway</span>
+        </div>
+      </div>
+
+      <div class="mode-tab" data-mode="revision">
+        <span class="mode-icon">🔄</span>
+        <div class="mode-info">
+          <span class="mode-title">Revision Mode</span>
+          <span class="mode-desc">Weak-Area Diagnostic</span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Workspace (Chat & Sidebar) -->
+    <div class="main-workspace">
+      <!-- Chat & Interactive Clinical Panel -->
+      <section class="chat-container">
+        <!-- Mode Banner / Quick Context -->
+        <div class="mode-banner" id="modeBanner">
+          <div class="banner-content">
+            <span class="banner-badge" id="bannerBadge">🧠 INQUIRY MODE ACTIVE</span>
+            <p id="bannerDescription">
+              The tutor will not immediately give you the answer. It will ask guided clinical questions, help you identify gaps, and provide progressive hints.
+            </p>
+          </div>
+          <!-- Mode Specific Action Toolbar -->
+          <div class="mode-toolbar" id="modeToolbar">
+            <!-- Populated dynamically via JS according to active mode -->
+          </div>
+        </div>
+
+        <!-- Chat Messages Stream -->
+        <div class="chat-messages" id="chatMessages">
+          <!-- Initial Welcome Message -->
+          <div class="message assistant">
+            <div class="message-avatar">🌿</div>
+            <div class="message-body">
+              <div class="message-meta">
+                <span class="sender-name">INQUIRY OT Tutor</span>
+                <span class="mode-tag">Inquiry Mode</span>
+                <span class="source-tag">Pedretti & MGRU Aligned</span>
+              </div>
+              <div class="message-text">
+                <p><strong>Namaste & Welcome, Occupational Therapy Scholar!</strong></p>
+                <p>I am your dedicated <strong>INQUIRY OT Tutor</strong>. My mission is to cultivate your clinical reasoning so you think, assess, and intervene like an expert occupational therapist.</p>
+                <p>Rather than spoon-feeding direct answers, I guide you through the <strong>OT Reasoning Pathway</strong>:</p>
+                <div class="callout pathway-callout">
+                  <strong>CONDITION → IMPAIRMENT → ACTIVITY LIMITATION → PARTICIPATION PROBLEM → ASSESSMENT → GOALS → INTERVENTION → CLINICAL JUSTIFICATION</strong>
+                </div>
+                <p>What clinical condition or subject would you like to explore today? You can choose from <em>Neurology, Orthopaedics, Paediatrics, Psychiatry, OT Models, or Splinting</em>, or pick a topic from the <strong>Syllabus Explorer</strong> on the right!</p>
+              </div>
+              <div class="message-actions">
+                <button class="quick-prompt-btn" onclick="quickAsk('Let us study Radial Nerve Palsy and dynamic splinting.')">Radial Nerve Palsy</button>
+                <button class="quick-prompt-btn" onclick="quickAsk('How do we manage shoulder subluxation in stroke hemiparesis?')">Stroke & Shoulder Subluxation</button>
+                <button class="quick-prompt-btn" onclick="quickAsk('Explain the Kawa River Model with an example.')">Kawa River Model</button>
+                <button class="quick-prompt-btn" onclick="quickAsk('Give me a clinical case study to reason through.')">Start a Case Study</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input-container">
+          <form id="chatForm" class="chat-form">
+            <div class="input-wrapper">
+              <textarea 
+                id="userInput" 
+                rows="1" 
+                placeholder="Type your clinical question, reasoning response, or answer..."
+                autocomplete="off"
+              ></textarea>
+              <div class="input-actions">
+                <button type="button" class="btn-hint" id="btnRequestHint" title="Request a progressive clinical hint">
+                  💡 Hint
+                </button>
+                <button type="submit" class="btn-send" id="btnSend">
+                  <span>Send</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="input-footer">
+            <span class="hint-text">💡 Press <kbd>Enter</kbd> to send, <kbd>Shift + Enter</kbd> for new line. In Exam Mode, use the rubric selector above.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sidebar: Syllabus, Analytics & Grounding Tools -->
+      <aside class="workspace-sidebar" id="workspaceSidebar">
+        <!-- Sidebar Navigation Tabs -->
+        <div class="sidebar-tabs">
+          <button class="sidebar-tab active" data-tab="syllabus">
+            📚 Syllabus
+          </button>
+          <button class="sidebar-tab" data-tab="cases">
+            🩺 Cases
+          </button>
+          <button class="sidebar-tab" data-tab="weakness">
+            🎯 Weak Areas
+          </button>
+        </div>
+
+        <!-- Tab 1: MGRU Syllabus Explorer -->
+        <div class="sidebar-panel active" id="tabSyllabus">
+          <div class="panel-header">
+            <h3>MGRU B.O.T Syllabus</h3>
+            <span class="badge">6 Core Subjects</span>
+          </div>
+          <div class="search-box">
+            <input type="text" id="syllabusSearch" placeholder="Search topics, splints, assessments..." autocomplete="off">
+          </div>
+          <div class="syllabus-tree" id="syllabusTree">
+            <div class="loading-spinner">Loading syllabus tree...</div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Clinical Cases Panel -->
+        <div class="sidebar-panel" id="tabCases">
+          <div class="panel-header">
+            <h3>Clinical Case Simulator</h3>
+            <span class="badge">Reasoning Pathway</span>
+          </div>
+          <p class="panel-desc">Real-world hospital and community OT clinical cases. Solve them step-by-step.</p>
+          <div class="cases-list" id="casesList">
+            <div class="loading-spinner">Loading clinical cases...</div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Weak Areas & Personalised Analytics -->
+        <div class="sidebar-panel" id="tabWeakness">
+          <div class="panel-header">
+            <h3>Weakness Diagnostic</h3>
+            <span class="badge" id="weaknessBadge">Personalised</span>
+          </div>
+          <div class="analytics-card">
+            <div class="metric-row">
+              <div class="metric-item">
+                <span class="metric-val" id="statAccuracy">--%</span>
+                <span class="metric-lbl">Accuracy</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-val" id="statAttempted">--</span>
+                <span class="metric-lbl">Questions</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-val" id="statMastery">--%</span>
+                <span class="metric-lbl">Mastery</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="weak-topics-section">
+            <h4>Priority Revision Topics</h4>
+            <div class="weak-tags" id="weakTopicsList">
+              <span class="weak-tag">Radial Nerve Palsy Splinting</span>
+              <span class="weak-tag">Autonomic Dysreflexia Emergency</span>
+            </div>
+            <button class="btn-action-full" id="btnLaunchRevisionQuiz">
+              🔄 Start Revision on Weak Areas
+            </button>
+          </div>
+
+          <div class="recurring-mistakes-section">
+            <h4>Logged Misconceptions</h4>
+            <div class="mistakes-list" id="recurringMistakesList">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Modals -->
+    <!-- 1. Settings & API Key Modal -->
+    <div class="modal-overlay" id="modalSettings">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>⚙️ INQUIRY OT Tutor Settings</h3>
+          <button class="modal-close" onclick="closeModal('modalSettings')">✕</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-intro">
+            INQUIRY OT Tutor works <strong>100% out-of-the-box</strong> using its verified Built-in Academic OT Engine. You can also connect a Google Gemini API key or OpenAI key for live dynamic AI generations.
+          </p>
+
+          <div class="callout" style="background:#eff6ff; border-left:4px solid #3b82f6; margin-bottom:14px; font-size:12.5px; line-height:1.5;">
+            <strong>💡 AI Connection Guide:</strong><br>
+            • <strong>Google Gemini (Recommended)</strong>: Offers a <strong>100% FREE API key</strong> with generous limits and no credit card required. Get your key at <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#2563eb; font-weight:700; text-decoration:underline;">Google AI Studio ↗</a>.<br>
+            • <strong>OpenAI</strong>: Requires an active paid billing balance. Free accounts with $0 credits will return a 429 Quota Exhausted error.<br>
+            • <strong>Built-in Academic Engine</strong>: Works 100% offline out-of-the-box without needing any API key!
+          </div>
+
+          <form id="settingsForm">
+            <div class="form-group">
+              <label for="studentName">Student Name</label>
+              <input type="text" id="studentName" placeholder="e.g. Priyadharshini / OT Scholar">
+            </div>
+
+            <div class="form-group">
+              <label for="studyLevel">Academic Phase / Year</label>
+              <select id="studyLevel">
+                <option value="1st Year BOT">1st Year BOT (Foundations & Anatomy)</option>
+                <option value="2nd Year BOT">2nd Year BOT (Pathology & Biomechanics)</option>
+                <option value="3rd Year BOT (Clinical Phase)" selected>3rd Year BOT (Clinical Conditions)</option>
+                <option value="4th Year BOT (Advanced Practice)">4th Year BOT (Advanced Rehabilitation)</option>
+                <option value="Internship / Fieldwork">Internship / Clinical Fieldwork</option>
+                <option value="MOT / Postgraduate">MOT / Postgraduate Scholar</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="apiProvider">AI Provider Engine</label>
+              <select id="apiProvider">
+                <option value="gemini">Google Gemini (Recommended - 100% Free Tier)</option>
+                <option value="openai">OpenAI (Requires Paid Balance / Credits)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="apiKey">API Key</label>
+              <div style="display:flex; gap:8px;">
+                <input type="password" id="apiKey" placeholder="AIzaSy... or sk-..." style="flex:1;">
+                <button type="button" class="btn-secondary" id="btnToggleKeyVis" title="Show/Hide API key" style="padding:0 12px;">👁️</button>
+              </div>
+              <small class="form-hint" id="apiKeyHelpText">Leave blank to use the built-in offline Academic OT Engine without any keys.</small>
+            </div>
+
+            <div class="form-group" id="geminiModelGroup">
+              <label for="geminiModel">Gemini Model</label>
+              <select id="geminiModel">
+                <option value="gemini-3.5-flash-lite" selected>Gemini 3.5 Flash Lite (Ultra Fast & 100% Free - Recommended)</option>
+                <option value="gemini-3.5-flash">Gemini 3.5 Flash (Balanced & 100% Free)</option>
+                <option value="gemini-3.8-flash">Gemini 3.8 Flash (Advanced Clinical Reasoning)</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="openaiModelGroup" style="display:none;">
+              <label for="openaiModel">OpenAI Model</label>
+              <select id="openaiModel">
+                <option value="gpt-4o-mini">GPT-4o Mini (Fast & Cost Efficient)</option>
+                <option value="gpt-4o">GPT-4o (Full Flagship Model)</option>
+              </select>
+            </div>
+
+            <!-- Live Connection Test Result Box -->
+            <div id="connectionTestResult" style="display:none; padding:10px 14px; border-radius:8px; margin-bottom:14px; font-size:12.5px; line-height:1.4;"></div>
+
+            <div class="modal-footer" style="display:flex; justify-content:space-between; align-items:center;">
+              <button type="button" class="btn-secondary" id="btnTestConnection" style="background:#e0f2fe; color:#0369a1; border-color:#bae6fd; font-weight:700;">
+                ⚡ Test AI Connection
+              </button>
+              <div style="display:flex; gap:10px;">
+                <button type="button" class="btn-secondary" onclick="closeModal('modalSettings')">Cancel</button>
+                <button type="submit" class="btn-primary">Save Settings</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. RAG Knowledge Base & Notes Uploader Modal -->
+    <div class="modal-overlay" id="modalRAG">
+      <div class="modal-container large">
+        <div class="modal-header">
+          <h3>📖 Grounded OT Knowledge Base & RAG Library</h3>
+          <button class="modal-close" onclick="closeModal('modalRAG')">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="rag-split">
+            <div class="rag-sources-column">
+              <h4>Approved Academic Knowledge Sources</h4>
+              <p class="text-sm">All responses are grounded in these peer-reviewed sources:</p>
+              <div class="sources-list" id="ragSourcesList">
+                <!-- Populated via JS -->
+              </div>
+            </div>
+
+            <div class="rag-upload-column">
+              <h4>Add Custom University Notes / Syllabus Materials</h4>
+              <p class="text-sm">Upload or paste lecture slides, exam question banks, or hospital protocols into the RAG index.</p>
+              <form id="uploadNotesForm">
+                <div class="form-group">
+                  <label for="noteTitle">Note Title / Topic</label>
+                  <input type="text" id="noteTitle" placeholder="e.g. Unit 3 - Extensor Tendon Rehab Zones" required>
+                </div>
+                <div class="form-group">
+                  <label for="noteSource">Source / University</label>
+                  <input type="text" id="noteSource" placeholder="e.g. TNMGRU Class Lecture / Pedretti" required>
+                </div>
+                <div class="form-group">
+                  <label for="noteContent">Clinical Content / Text</label>
+                  <textarea id="noteContent" rows="6" placeholder="Paste lecture notes, splinting rules, or assessment criteria here..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary full-width">Index Note into Knowledge Base</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Student Progress & Analytics Modal -->
+    <div class="modal-overlay" id="modalAnalytics">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3>📊 Student Learning Portfolio</h3>
+          <button class="modal-close" onclick="closeModal('modalAnalytics')">✕</button>
+        </div>
+        <div class="modal-body" id="analyticsModalContent">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast" id="toast">Notification</div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

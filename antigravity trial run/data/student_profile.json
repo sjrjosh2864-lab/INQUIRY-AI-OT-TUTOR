@@ -1,0 +1,163 @@
+{
+  "student_name": "trial run",
+  "study_level": "2nd Year BOT",
+  "target_university": "The Tamil Nadu Dr. M.G.R. Medical University",
+  "joined_date": "2026-09-28",
+  "last_active": "2026-10-12 16:36:40",
+  "stats": {
+    "total_questions_attempted": 10,
+    "correct_responses": 1,
+    "partial_responses": 9,
+    "incorrect_responses": 0,
+    "cases_completed": 0,
+    "viva_sessions": 1,
+    "exams_practiced": 0,
+    "study_streak_days": 1
+  },
+  "subject_mastery": {
+    "neurology": {
+      "studied_topics": 1,
+      "mastery_score": 79,
+      "total_attempts": 4
+    },
+    "orthopaedics": {
+      "studied_topics": 1,
+      "mastery_score": 74,
+      "total_attempts": 1
+    },
+    "paediatrics": {
+      "studied_topics": 0,
+      "mastery_score": 72,
+      "total_attempts": 0
+    },
+    "psychiatry": {
+      "studied_topics": 0,
+      "mastery_score": 68,
+      "total_attempts": 0
+    },
+    "foundations_models": {
+      "studied_topics": 0,
+      "mastery_score": 85,
+      "total_attempts": 5
+    },
+    "community_general": {
+      "studied_topics": 0,
+      "mastery_score": 65,
+      "total_attempts": 0
+    }
+  },
+  "topic_history": {
+    "Radial Nerve Palsy Splinting": {
+      "subject": "orthopaedics",
+      "attempts": 1,
+      "correct": 1,
+      "score": 65,
+      "last_reviewed": "2026-09-28"
+    },
+    "Clinical OT Reasoning": {
+      "subject": "neurology",
+      "attempts": 9,
+      "correct": 0,
+      "score": 95,
+      "last_reviewed": "2026-10-12"
+    }
+  },
+  "recurring_mistakes": [
+    {
+      "id": "err_init_1",
+      "subject": "orthopaedics",
+      "topic": "Radial Nerve Palsy Splinting",
+      "mistake": "Selected static resting splint instead of dynamic extensor splint for functional grasp assistance.",
+      "correction": "Dynamic extensor splint is indicated to preserve active grasp while dynamically replacing absent extensor pull.",
+      "occurrences": 1,
+      "date": "2026-09-28"
+    }
+  ],
+  "weak_areas": [
+    "Autonomic Dysreflexia Emergency Protocol",
+    "Radial Nerve Palsy Splinting"
+  ],
+  "revision_queue": [
+    "Radial Nerve Palsy Splinting",
+    "Mosey's Developmental Groups"
+  ],
+  "recent_activities": [
+    {
+      "timestamp": "16:36 - 12 Oct",
+      "mode": "viva",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Let's investigate the topic: \"Clinical Presentation & OT Eva"
+    },
+    {
+      "timestamp": "15:02 - 08 Oct",
+      "mode": "inquiry",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Hello tutor, introduce yourself and how you teach using inqu"
+    },
+    {
+      "timestamp": "15:39 - 30 Sep",
+      "mode": "viva",
+      "topic": "Viva Voce Oral Response",
+      "result": "9/10",
+      "notes": "Rapid Oral Exam"
+    },
+    {
+      "timestamp": "15:39 - 30 Sep",
+      "mode": "clinical_reasoning",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Advance to Stage 2 of the OT Reasoning Pathway for this case"
+    },
+    {
+      "timestamp": "16:24 - 28 Sep",
+      "mode": "revision",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Please give me a progressive clinical hint for this conditio"
+    },
+    {
+      "timestamp": "16:23 - 28 Sep",
+      "mode": "clinical_reasoning",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Let's investigate the topic: \"Functional Outcomes by Spinal "
+    },
+    {
+      "timestamp": "16:18 - 28 Sep",
+      "mode": "tutor",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Let's investigate the topic: \"TBI Levels, Prognosis & Cognit"
+    },
+    {
+      "timestamp": "16:17 - 28 Sep",
+      "mode": "clinical_reasoning",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Please give me a progressive clinical hint for this conditio"
+    },
+    {
+      "timestamp": "16:13 - 28 Sep",
+      "mode": "inquiry",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "i have a patient with a diagnosis of right medullary infarct"
+    },
+    {
+      "timestamp": "16:10 - 28 Sep",
+      "mode": "inquiry",
+      "topic": "Clinical OT Reasoning",
+      "result": "partial",
+      "notes": "Let's investigate the topic: \"Clinical Presentation & OT Eva"
+    },
+    {
+      "timestamp": "14:15 - 28 Sep",
+      "mode": "inquiry",
+      "topic": "Radial Nerve Palsy Splinting",
+      "result": "correct",
+      "notes": ""
+    }
+  ]
+}

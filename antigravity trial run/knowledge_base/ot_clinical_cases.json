@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": "cva_mca_case_1",
+    "title": "58-Year-Old Executive with Left MCA Ischemic Stroke",
+    "subject": "neurology",
+    "patient_summary": "Mr. K, 58-year-old Senior Bank Manager, right-hand dominant, 3 weeks post acute left Middle Cerebral Artery (MCA) ischemic stroke. Medically stable, admitted to inpatient neuro-rehabilitation.",
+    "detailed_scenario": "Mr. K presents with right hemiparesis, right facial weakness, expressive aphasia (Broca's), mild sensory loss over the right hemibody, and inferior subluxation of the right glenohumeral joint (approx. 2 fingerbreadths). Muscle tone in right upper extremity shows emerging spasticity in flexor synergy pattern (Modified Ashworth Scale 1+ in biceps and wrist flexors). Active movement is limited to slight shoulder abduction and mass finger flexion. He is dependent in dressing, bathing, and feeding with his right dominant arm, causing profound distress regarding his goal of returning to banking work and driving.",
+    "pathway": {
+      "condition": "Left Middle Cerebral Artery (MCA) Ischemic Infarct, 3 weeks post-stroke, Stage 2-3 Brunnstrom recovery.",
+      "impairment": "Right hemiparesis, right UE flexor spasticity (MAS 1+), right glenohumeral subluxation (2 fingerbreadths), loss of selective motor control in right hand, mild proprioceptive deficit.",
+      "activity_limitation": "Inability to feed independently using dominant right hand; inability to don/doff shirts and manage buttons; difficulty with bed mobility and sit-to-stand transfers.",
+      "participation_restriction": "Inability to resume managerial banking employment; loss of family breadwinner identity; restriction in social dining and community driving.",
+      "assessment": "1. Fugl-Meyer Assessment (FMA) for motor recovery\n2. Modified Ashworth Scale (MAS) for biceps/wrist flexors\n3. Modified Barthel Index (MBI) or FIM for ADLs\n4. Shoulder palpation/sulcus sign for subluxation grade\n5. COPM (Canadian Occupational Performance Measure) for client priorities.",
+      "goals": "Short-Term Goals (3 Weeks):\n1. Patient will perform one-handed buttoning and upper body dressing using compensatory techniques and adaptive button hook with minimal assistance.\n2. Patient will maintain right shoulder alignment without pain during transfers using GivMohr sling / supportive taping.\n\nLong-Term Goals (8 Weeks):\n1. Patient will actively grasp and release lightweight objects (cubes, cups) using right hand with graded task-oriented training.\n2. Patient will achieve modified independence in feeding and personal grooming using affected right extremity as functional assist.",
+      "intervention": "1. Biomechanical & Neuro-Rehabilitative Approach:\n- Shoulder protection: GivMohr sling during ambulation; arm trough on wheelchair; education to prevent traction injury during transfers.\n- Task-Oriented Training: Graded reaching and grasp activities in sitting and standing.\n- Neurodevelopmental / NDT: Weight bearing through right arm on therapy table to inhibit flexor hypertonicity and activate shoulder stabilizers.\n- Constraint-Induced Movement Therapy (modified mCIMT) as distal active movement reaches 10 deg extension criteria.\n- Mirror Therapy for cortical motor priming of the paretic hand.\n- Adaptive Equipment: Button hook, elastic shoelaces, rocker knife, non-skid dycem mat.",
+      "clinical_justification": "Task-oriented training combined with active weight-bearing induces neuroplastic cortical reorganization. Protecting the glenohumeral joint prevents traction neuropraxia and painful Hemiplegic Shoulder-Hand Syndrome (CRPS Type 1).",
+      "prognosis_prediction": "Favorable functional prognosis for independent ambulation and basic self-care ADLs given early presentation and intact cognition. Fine motor hand dexterity recovery is guarded and will require sustained task-specific retraining."
+    },
+    "inquiry_sequence": [
+      {
+        "step": 1,
+        "phase": "CONDITION & IMPAIRMENT",
+        "question": "Looking at Mr. K's case, what are the primary body structure and function impairments you must address first, and what potential orthopedic complication in the shoulder is he at high risk for?",
+        "hints": [
+          "Check the position and tone of his right upper limb.",
+          "Think about what happens to the shoulder joint when the rotator cuff muscles are flaccid or weak."
+        ],
+        "expected_answer": "Right hemiparesis with emerging flexor synergy/spasticity, and high risk of inferior glenohumeral subluxation / painful hemiplegic shoulder."
+      },
+      {
+        "step": 2,
+        "phase": "ACTIVITY & PARTICIPATION",
+        "question": "How do these impairments translate into Activity Limitations and Participation Restrictions for Mr. K given his role as a bank manager?",
+        "hints": [
+          "Activity = discrete tasks he cannot do (dressing, writing).",
+          "Participation = social roles, work, community."
+        ],
+        "expected_answer": "Activity: inability to button shirts, feed with right hand, write. Participation: unable to perform banking duties, loss of breadwinner role, driving restrictions."
+      },
+      {
+        "step": 3,
+        "phase": "ASSESSMENT",
+        "question": "Which standardized assessment tools would you select to evaluate his motor recovery, muscle spasticity, and ADL independence?",
+        "hints": [
+          "One assesses stroke motor recovery (starts with F).",
+          "One assesses muscle tone (Ashworth).",
+          "One assesses ADL index (Barthel or FIM)."
+        ],
+        "expected_answer": "Fugl-Meyer Assessment (FMA), Modified Ashworth Scale (MAS), and Modified Barthel Index (MBI) or FIM."
+      },
+      {
+        "step": 4,
+        "phase": "GOALS & INTERVENTION",
+        "question": "Formulate one SMART short-term goal for dressing and describe your immediate OT intervention to protect his subluxated right shoulder.",
+        "hints": [
+          "SMART goals include specific timeframes, functional activity, and assistance level.",
+          "Think about positioning devices or slings that do not promote flexor synergy."
+        ],
+        "expected_answer": "Goal: Patient will independently button shirt using compensatory techniques/button hook within 3 weeks. Intervention: Arm trough on wheelchair, GivMohr sling for transfers/walking, avoid pulling arm, weight-bearing."
+      },
+      {
+        "step": 5,
+        "phase": "CLINICAL JUSTIFICATION & PROGNOSIS",
+        "question": "Justify why you should avoid standard sling types (like an arm sling that holds the elbow in 90 degrees flexion across the chest) and what is the prognosis for his upper extremity?",
+        "hints": [
+          "Standard slings encourage internal rotation, adduction, and flexor synergy.",
+          "Prognosis depends on early voluntary hand movement."
+        ],
+        "expected_answer": "Standard envelope slings reinforce abnormal flexor synergy pattern and contractures. GivMohr maintains anatomical alignment. Prognosis is good for gross mobility and ADLs, but fine motor dexterity recovery requires dedicated neuroplastic training."
+      }
+    ]
+  },
+  {
+    "case_id": "radial_nerve_case_2",
+    "title": "28-Year-Old Mechanic with Radial Nerve Injury post Humerus Fracture",
+    "subject": "orthopaedics",
+    "patient_summary": "Arun, a 28-year-old auto mechanic, sustained a closed mid-shaft fracture of the right humerus treated with open reduction and internal fixation (ORIF).",
+    "detailed_scenario": "Following surgery, Arun presents with complete inability to extend his right wrist, thumb, and metacarpophalangeal (MCP) joints. The wrist hangs in flexion ('Wrist Drop'). Sensation is absent over the dorsal first web space. Grasp strength is severely compromised because he cannot stabilize the wrist in extension to allow the finger flexors to work effectively. He is anxious about losing his job as a mechanic.",
+    "pathway": {
+      "condition": "High Radial Nerve Injury (neuropraxia/axonotmesis) secondary to mid-shaft humeral fracture.",
+      "impairment": "Paralysis of wrist extensors (ECRL, ECRB, ECU), finger extensors (EDC), and thumb extensors/abductor (EPL, EPB, APL); sensory loss over first dorsal interosseous web space; loss of tenodesis grasp stability.",
+      "activity_limitation": "Inability to release objects from grasp; inability to pick up or manipulate mechanic tools (wrenches, screwdrivers); difficulty with two-handed lifting and typing.",
+      "participation_restriction": "Inability to work as an automotive mechanic; financial distress; reduced recreational sports participation.",
+      "assessment": "1. Manual Muscle Testing (MMT) of wrist, finger, and thumb extensors\n2. Goniometric ROM of wrist and digits (passive vs active)\n3. Semmes-Weinstein Monofilament testing for sensory threshold\n4. Jamar Hand Dynamometer for grip strength\n5. DASH questionnaire for upper extremity disability.",
+      "goals": "Short-Term Goals (4 Weeks):\n1. Arun will independently don, doff, and care for his dynamic extensor splint.\n2. Arun will perform basic tool handling and grasp-and-release drills with dynamic splint support.\n\nLong-Term Goals (12-16 Weeks):\n1. As nerve regenerates (1 mm/day), Arun will achieve Grade 3/5 active wrist extension without splint.\n2. Arun will return to modified automotive workshop duties using adapted tool grips.",
+      "intervention": "1. Splinting of Choice: Dynamic Wrist, Finger, and Thumb Extensor Splint (wrist positioned in 20-30 deg extension, elastic outrigger bands assisting MCP extension while permitting active finger flexion for grasp).\n2. Alternative interim splint: Static cock-up splint in 30 deg extension for functional power grip.\n3. Sensory Protection: Education regarding burns, abrasions, and sharp edges over the insensate dorsal first web space.\n4. Range of Motion: Daily Passive ROM exercises to prevent flexion contractures of MCP and wrist joints.\n5. Functional Electrical Stimulation (FES) to wrist/finger extensors to retard muscle atrophy during re-innervation.",
+      "clinical_justification": "Without a dynamic splint, denervated extensor muscles are overstretched by antagonist flexor pull, leading to irreversible mechanical stretching and inability to re-innervate effectively. The splint restores immediate grasp function through active flexion against dynamic elastic recoil.",
+      "prognosis_prediction": "Excellent prognosis for nerve regeneration and functional recovery if axonotmesis/neuropraxia. Radial nerve has the highest recovery rate among major peripheral nerves due to lack of intrinsic hand muscle innervation."
+    },
+    "inquiry_sequence": [
+      {
+        "step": 1,
+        "phase": "CONDITION & IMPAIRMENT",
+        "question": "What is the clinical deformity Arun displays, and why is his grip strength poor even though his finger flexors (median and ulnar innervated) are intact?",
+        "hints": [
+          "Think about the position of the wrist when making a strong fist.",
+          "What is active insufficiency?"
+        ],
+        "expected_answer": "Wrist drop deformity. Grip strength fails because without wrist extensors to stabilize the wrist in 20-30 degrees extension, the finger flexors become actively insufficient when the wrist flexes."
+      },
+      {
+        "step": 2,
+        "phase": "SPLINT SELECTION",
+        "question": "What is the specific splint of choice for Arun's condition, and what mechanical purpose does it serve?",
+        "hints": [
+          "It has outriggers and dynamic rubber bands.",
+          "It assists finger and thumb extension while allowing active flexion."
+        ],
+        "expected_answer": "Dynamic Wrist-Finger-Thumb Extensor Splint. It holds wrist in 20-30 deg extension and dynamically pulls MCPs into extension while allowing active flexion for grasp."
+      },
+      {
+        "step": 3,
+        "phase": "PRECAUTIONS & PROGNOSIS",
+        "question": "What critical sensory education must you provide, and what is the typical rate of peripheral nerve regeneration you would communicate to Arun?",
+        "hints": [
+          "Where is the sensory loss located in radial nerve palsy?",
+          "How many millimeters per day do peripheral nerves typically regenerate?"
+        ],
+        "expected_answer": "Protect the dorsal first web space from thermal burns and sharp trauma. Peripheral nerves regenerate at approximately 1 mm per day (approx. 1 inch per month), indicating high likelihood of recovery."
+      }
+    ]
+  },
+  {
+    "case_id": "pediatric_cp_case_3",
+    "title": "5-Year-Old with Spastic Diplegic Cerebral Palsy",
+    "subject": "paediatrics",
+    "patient_summary": "Ananya, 5 years old, diagnosed with Spastic Diplegia Cerebral Palsy (GMFCS Level II, MACS Level II), referred for fine motor and school readiness difficulties.",
+    "detailed_scenario": "Ananya walks with a scissoring gait pattern using bilateral ankle-foot orthoses (AFOs). When seated in a standard classroom chair, she tends to sit in sacral sitting with posterior pelvic tilt and internal rotation of the lower limbs. In upper extremities, mild spasticity is present bilaterally in pronators and thumb adductors. She uses a digital pronate grasp on crayons, presses excessively hard on paper, and fatigues quickly during coloring and puzzle activities. Her parents are eager for her to transition smoothly into formal primary school.",
+    "pathway": {
+      "condition": "Spastic Diplegic Cerebral Palsy, GMFCS II, MACS II, secondary to periventricular leukomalacia (preterm birth at 30 weeks).",
+      "impairment": "Lower extremity spasticity (hamstrings, adductors, gastrocnemius), weak core postural stability, bilateral forearm pronator and thumb adductor hypertonicity, immature pencil grasp.",
+      "activity_limitation": "Fatigue during sustained sitting in standard desk; poor coloring precision and slow letter formation; difficulty managing school lunch box and water bottle caps.",
+      "participation_restriction": "Difficulty keeping pace with peers in kindergarten classroom; limited participation in playground games; reduced independence in school toileting.",
+      "assessment": "1. Gross Motor Function Classification System (GMFCS) & MACS\n2. Peabody Developmental Motor Scales (PDMS-2) Fine Motor battery\n3. Beery-Buktenica Developmental Test of Visual-Motor Integration (Beery VMI)\n4. Seating and Postural Ergonomic Assessment\n5. Sensory Profile 2 (Child) for sensory modulation evaluation.",
+      "goals": "Short-Term Goals (4 Weeks):\n1. Ananya will maintain upright sitting posture with 90-90-90 alignment for 20 minutes using an adapted classroom chair with pommel and footrest.\n2. Ananya will hold a pencil using a transitional quadrupod grasp with a molded silicone pencil grip during pre-writing strokes.\n\nLong-Term Goals (12 Weeks):\n1. Ananya will complete classroom pre-writing and coloring tasks without excessive fatigue or breaking crayons.\n2. Ananya will independently open and close her school lunchbox and bottle using bilateral coordination strategies.",
+      "intervention": "1. Postural & Classroom Adaptation:\n- Ergonomic seating: Classroom chair with firm seat, adjustable footrest (knees & hips at 90 degrees), slight anterior pelvic wedge to prevent sacral slump, and abductor pommel.\n- Slanted writing board (20-30 degree slant) to promote wrist extension and optimal eye-hand alignment.\n2. NDT & Hand Function Preparation:\n- Upper extremity weight-bearing on open palms over therapy ball to facilitate wrist extension and thumb abduction.\n- Hand-strengthening games: Theraputty pinch exercises, clothespin tasks, scissor cutting on heavy cardstock.\n3. Assistive Devices: Built-up silicone pencil grip, easy-open lock lunch containers, adaptive dual-control scissors.",
+      "clinical_justification": "Proximal stability drives distal mobility. Providing appropriate pelvic and lower extremity postural support stabilizes the shoulder girdle, allowing fine motor dexterity and pencil control to emerge without compensatory overflow.",
+      "prognosis_prediction": "High potential for academic participation in mainstream school with proper environmental modifications and adaptive seating. Fine motor and handwriting endurance will improve significantly with ergonomic accommodation."
+    },
+    "inquiry_sequence": [
+      {
+        "step": 1,
+        "phase": "POSTURAL ALIGNMENT & ERGONOMICS",
+        "question": "Before addressing Ananya's pencil grasp, why must you first evaluate and adapt her seating posture?",
+        "hints": [
+          "Think about the famous OT axiom: 'Proximal stability enables...' what?",
+          "How does a slumped pelvis affect the upper limbs?"
+        ],
+        "expected_answer": "Proximal stability drives distal mobility. Without pelvic and trunk stability (sacral sitting), the shoulder girdle locks up, leading to excessive muscle tension and poor finger control."
+      },
+      {
+        "step": 2,
+        "phase": "INTERVENTION SELECTION",
+        "question": "What three ergonomic adjustments would you make to her classroom desk and writing station?",
+        "hints": [
+          "One for her feet/knees, one for the writing surface angle, and one for the pencil."
+        ],
+        "expected_answer": "1. Footrest to ensure 90-90-90 hip-knee-ankle alignment. 2. Slanted writing board (20-30 degrees) to promote wrist extension. 3. Molded silicone pencil grip to facilitate quadrupod/tripod grasp."
+      }
+    ]
+  }
+]

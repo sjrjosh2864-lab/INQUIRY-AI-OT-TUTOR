@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pedretti_cva_rehab",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 33: Stroke / Cerebrovascular Accident",
+    "topics": ["Stroke", "CVA", "Hemiparesis", "CIMT", "Mirror Therapy", "Subluxation"],
+    "content": "Cerebrovascular Accident (CVA) leads to upper motor neuron dysfunction resulting in contralateral hemiplegia or hemiparesis. Occupational therapy evaluation focuses on occupational profile, motor control (Fugl-Meyer, Brunnstrom 6 stages), tone assessment (Modified Ashworth Scale), postural control, visual perception (unilateral spatial neglect), and ADL independence (Modified Barthel Index, FIM).\n\nKey Interventions:\n1. Constraint-Induced Movement Therapy (CIMT): Indicated for patients with minimum 10 degrees active wrist extension, 10 degrees thumb abduction/extension, and 10 degrees extension in at least two other digits. Restraint of unaffected arm for 90% of waking hours over 2 weeks with intensive task-oriented training (6 hours/day for traditional, or modified mCIMT 2 hours/day).\n2. Mirror Therapy: Cortical reorganization through visual illusion of unimpaired limb movement reflected in mirror.\n3. Shoulder Subluxation: Protect the flaccid or hypotonic glenohumeral joint using lap trays, arm troughs, or shoulder strapping/taping (GivMohr sling during ambulation). Avoid pulling the affected arm during transfers.\n4. Task-Oriented Training: Functional repetitive practice of meaningful activities (reaching for cup, grooming) with progressive difficulty grading."
+  },
+  {
+    "id": "pedretti_pni_radial",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 35: Peripheral Nerve Injuries - Radial Nerve",
+    "topics": ["Radial Nerve", "Wrist Drop", "Dynamic Extensor Splint", "Saturday Night Palsy"],
+    "content": "Radial Nerve Palsy (frequently caused by mid-shaft humeral fracture or compression in the spiral groove - 'Saturday night palsy'):\nMotor Loss: High lesion results in loss of wrist extensors (ECRL, ECRB, ECU), thumb abductor longus (APL), thumb extensors (EPL, EPB), and finger extensors (EDC), causing 'Wrist Drop' and inability to release grasp. Low lesion (posterior interosseous nerve) preserves wrist extension with radial deviation (ECRL intact) but loses finger and thumb extension.\nSensory Loss: First dorsal web space and dorsal aspect of radial 3.5 digits.\nOT Management & Splinting:\n1. Splint of choice: Dynamic Wrist-Finger-Thumb Extensor Splint (maintains wrist in 30 deg extension, MCP joints in neutral/slight flexion with dynamic rubber band or spring outrigger assist for finger/thumb extension).\n2. Alternative: Static Wrist Cock-up Splint in 20-30 degrees extension to allow functional grasp through passive finger flexion and mechanical tenodesis.\n3. Education: Protect desensitized first web space from burn and pressure injury; functional training in grasp and release."
+  },
+  {
+    "id": "pedretti_pni_median",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 35: Peripheral Nerve Injuries - Median Nerve",
+    "topics": ["Median Nerve", "Carpal Tunnel Syndrome", "Ape Hand", "Opponens Splint", "Hand of Benediction"],
+    "content": "Median Nerve Lesions ('Eye of the Hand' due to crucial sensory role in tactile gnosis):\nHigh Lesion: Occurs at or above elbow (Pronator teres syndrome, supracondylar fracture). Loss of pronation, wrist flexion, thumb opposition, index/middle finger flexion (Hand of Benediction seen upon attempting to make a fist). Low Lesion: Occurs at wrist (Carpal Tunnel Syndrome, glass cut laceration). Thenar muscle atrophy (Abductor pollicis brevis, Opponens pollicis, superficial head of FPB) leading to 'Ape Hand' / Simian Hand deformity (thumb rests in plane of palm; cannot oppose).\nSensory Loss: Palmar surface of radial 3.5 digits (thumb, index, middle, radial half of ring finger) and fingertips.\nOT Splints:\n1. Low Lesion: Short Opponens Splint / Hand-based C-bar splint (positions thumb in palmar abduction and slight opposition to prevent contracture of first web space and allow pad-to-pad pinch).\n2. Carpal Tunnel: Neutral wrist splint (0-15 degrees extension) worn primarily at night to minimize carpal canal pressure.\n3. Sensory Re-education: Dellon's sensory re-education protocol (moving touch -> constant touch -> object recognition/stereognosis)."
+  },
+  {
+    "id": "pedretti_pni_ulnar",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 35: Peripheral Nerve Injuries - Ulnar Nerve",
+    "topics": ["Ulnar Nerve", "Claw Hand", "Knuckle Bender Splint", "Ulnar Paradox", "Froment's Sign"],
+    "content": "Ulnar Nerve Lesions ('Musician's Nerve'):\nPathology: High lesion at cubital tunnel (elbow) or low lesion at Guyon's canal (wrist). Produces 'Claw Hand' deformity (Duchenne sign) marked by MCP hyperextension and IP flexion in 4th and 5th digits due to paralysis of 3rd and 4th lumbricals and all interossei.\nUlnar Paradox: Clawing is MORE severe in low lesions at wrist than high lesions at elbow, because in high lesions the flexor digitorum profundus (FDP) to digits 4 & 5 is also paralyzed, reducing active IP flexion.\nClinical Signs: Positive Froment's sign (hyperflexion of thumb IP joint by FPL when pinching paper due to paralyzed adductor pollicis); Wartenberg's sign (abducted 5th finger).\nSplinting:\n1. Lumbrical Bar / Knuckle Bender Splint (static or dynamic MP flexion block splint): Blocks MCP hyperextension of 4th and 5th digits at 30-45 degrees of flexion, directing extrinsic extensor force to interphalangeal extension.\n2. Power grip and lateral pinch retraining."
+  },
+  {
+    "id": "pedretti_burns_rehab",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 38: Burn Rehabilitation & Anti-Deformity Positioning",
+    "topics": ["Burns", "Anti-deformity Positioning", "Intrinsic Plus", "Pressure Garments", "Contracture Prevention"],
+    "content": "Burn Rehabilitation in Occupational Therapy:\nPosition of Deformity vs Anti-Deformity Position:\n1. Neck: Position of deformity is flexion; Anti-deformity position is Neutral to slight extension (avoid pillows).\n2. Axilla: Position of deformity is adduction and internal rotation; Anti-deformity position is 90 degrees abduction and slight external rotation ('Airplane splint' or axillary wedge).\n3. Elbow: Position of deformity is flexion; Anti-deformity is full extension (anterior elbow extension splint).\n4. Hand: Position of deformity is claw hand (wrist flexion, MCP hyperextension, IP flexion, thumb adducted); Anti-deformity position is 'Intrinsic Plus / Safe Position' (Wrist 20-30 deg extension, MCP joints 70-90 deg flexion, IP joints fully extended 0 deg, thumb in wide palmar abduction).\nScar Management: Pressure garments (custom Jobst garments delivering 25 mmHg pressure worn 23 hours/day), silicone gel sheets, friction massage once re-epithelialized."
+  },
+  {
+    "id": "pedretti_sci_rehab",
+    "source": "Pedretti's Occupational Therapy: Practice Skills for Physical Dysfunction (8th Edition)",
+    "chapter": "Chapter 34: Spinal Cord Injury Rehabilitation",
+    "topics": ["SCI", "ASIA Scale", "Tenodesis", "Autonomic Dysreflexia", "C6 Quadriplegia"],
+    "content": "Spinal Cord Injury (SCI) Level-Specific OT Competencies:\nC1-C4: Dependent in ADLs; requires ventilator or diaphragm pacing (C1-C3); electric wheelchair with chin/sip-and-puff control, environmental control units (ECU).\nC5: Biceps and deltoid active (elbow flexion, shoulder abduction/flexion). Lacks wrist and hand movement. OT equipment: Mobile arm support (MAS), universal cuff, electric wheelchair with joystick.\nC6: Wrist extension active (Extensor carpi radialis longus/brevis). Key Milestone: Tenodesis Grasp (passive finger flexion when wrist extends). OT Rule: Never stretch finger flexors with wrist extended! Splint: Tenodesis splint / wrist-driven flexor hinge orthosis. Can achieve independent bed mobility, transfer with slide board, and manual wheelchair with rim projections.\nC7: Triceps active (elbow extension). Independent transfers, depression transfers, push-ups for pressure relief, manual wheelchair mobility.\nC8-T1: Intrinsic hand muscles active; full hand dexterity.\nAutonomic Dysreflexia (Lesions at or above T6): Sudden pounding headache, hypertension, bradycardia, sweating above lesion. Emergency Protocol: Immediately sit patient UP (do not lay flat!), loosen restrictive clothing, check bladder catheter for kinks/obstruction, notify physician."
+  }
+]

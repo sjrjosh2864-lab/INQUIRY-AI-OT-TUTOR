@@ -1,0 +1,16 @@
+[
+  {
+    "id": "splints_master_compendium",
+    "source": "Pedretti & AOTA Guidelines - Splinting & Orthotics Compendium",
+    "chapter": "Splinting & Assistive Technology",
+    "topics": ["Splinting", "Orthotics", "Cock-up Splint", "Opponens Splint", "Knuckle Bender", "Dynamic Splint", "Resting Pan"],
+    "content": "Master OT Splinting Compendium:\n1. Radial Nerve Injury: Dynamic Extensor Splint (maintains wrist in 30 deg extension with dynamic outrigger providing passive finger/thumb extension and active flexion) OR Static Wrist Cock-up in 20-30 deg extension.\n2. Low Median Nerve Palsy / Carpal Tunnel: Short Opponens / C-bar splint (thumb palmar abduction & slight opposition for pinch grip); Neutral wrist cock-up (0-15 deg extension) for CTS.\n3. Ulnar Nerve Palsy: Knuckle Bender / Lumbrical bar splint (prevents 4th & 5th MCP hyperextension, keeps MCP at 30-45 deg flexion, directing extensor tendon force to extend IP joints).\n4. High Median + Ulnar Palsy: Combination lumbrical bar and opponens splint.\n5. Rheumatoid Arthritis: Resting Hand Splint / Pan splint (worn at night during acute flare; wrist 10-20 deg extension, MCP 20-30 deg flexion, IP slight flexion, thumb slight abduction) to prevent ulnar drift; Day splints: Ring splints for swan neck / boutonniere, wrist support.\n6. Burns (Hand): Intrinsic Plus / Safe Position Splint (Wrist 20-30 deg extension, MCP 70-90 deg flexion, IPs fully extended 0 deg, thumb in maximum palmar abduction).\n7. Spastic Hemiplegia: Spasticity reduction splint (Bobath finger spreader, antispastic resting splint in neutral position to inhibit flexor hypertonicity).\n8. C6 Spinal Cord Injury: Tenodesis splint / Wrist-driven flexor hinge splint (translates active wrist extension into passive 3-jaw chuck pinch)."
+  },
+  {
+    "id": "assessments_master_compendium",
+    "source": "Willard & Spackman & Pedretti Assessment Compendium",
+    "chapter": "Standardized Clinical Assessment Tools",
+    "topics": ["Assessments", "FIM", "Barthel Index", "Fugl-Meyer", "Modified Ashworth", "MoCA", "GDS", "DASH", "COPM"],
+    "content": "Master OT Assessment Tools Compendium:\n1. Functional Independence Measure (FIM): 18 items (13 motor, 5 cognitive), scored 1 (Total Assistance) to 7 (Complete Independence). Total score 18-126.\n2. Modified Barthel Index (MBI): 10 ADL items scored 0-100 measuring functional level in feeding, bathing, grooming, dressing, bowel/bladder, toilet, transfers, mobility, stairs.\n3. Fugl-Meyer Assessment (FMA): Gold-standard quantitative evaluative measure of post-stroke motor recovery based on Brunnstrom stages (UE motor score max 66, LE motor score max 34).\n4. Modified Ashworth Scale (MAS): Grades muscle spasticity from 0 (No increase in tone) to 4 (Rigid in flexion or extension) with 1+ indicating slight increase manifested by catch and release with minimal resistance.\n5. Canadian Occupational Performance Measure (COPM): Client-centred outcome measure identifying self-care, productivity, and leisure priorities, rated on 1-10 scales for Performance and Satisfaction.\n6. Disabilities of the Arm, Shoulder and Hand (DASH): 30-item self-report questionnaire assessing upper extremity symptoms and disability.\n7. Montreal Cognitive Assessment (MoCA): 30-point screening tool for mild cognitive impairment; score below 26 indicates impairment."
+  }
+]

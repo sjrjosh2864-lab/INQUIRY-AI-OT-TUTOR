@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cs_cerebral_palsy",
+    "source": "Occupational Therapy for Children and Adolescents (Case-Smith & O'Brien, 8th Edition)",
+    "chapter": "Chapter 28: Cerebral Palsy",
+    "topics": ["Cerebral Palsy", "GMFCS", "MACS", "Spastic Diplegia", "NDT Handling", "Adaptive Seating"],
+    "content": "Cerebral Palsy (CP) is a non-progressive permanent disorder of posture and movement caused by damage to the immature brain.\nClassification:\n1. GMFCS (Gross Motor Function Classification System): Level I (Walks without restrictions), Level II (Walks with limitations), Level III (Walks using a hand-held mobility device), Level IV (Self-mobility with limitations; powered mobility), Level V (Transported in a manual wheelchair; severe head/trunk limitations).\n2. MACS (Manual Ability Classification System): Levels I to V categorizing how children handle everyday objects in daily activities.\nOT Principles & Interventions:\n- Postural Control & Seating: 90-90-90 hip-knee-ankle positioning with neutral pelvic tilt, lateral trunk supports, and pommel to prevent adductor scissoring.\n- Neurodevelopmental Treatment (NDT - Bobath): Key points of control (proximal: pelvis, shoulder girdle; distal: hands, feet) to inhibit abnormal reflex patterns (ATNR, STNR, TLR) and facilitate righting and equilibrium reactions.\n- Hand Function & Upper Extremity: Weight-bearing through extended wrist/open palm to break flexor hypertonicity; thumb abduction splints to facilitate radial palmar grasp; bilateral play activities.\n- Assistive Feeding: Adaptive spoons with built-up angled handles, dycem non-slip mats, cut-out cups (nose cut-out) to avoid neck hyperextension during swallowing."
+  },
+  {
+    "id": "cs_sensory_integration",
+    "source": "Occupational Therapy for Children and Adolescents (Case-Smith & O'Brien, 8th Edition)",
+    "chapter": "Chapter 24: Ayres Sensory Integration",
+    "topics": ["Sensory Integration", "Sensory Diet", "Tactile Defensiveness", "Vestibular", "Proprioception", "Dyspraxia"],
+    "content": "Ayres Sensory Integration (ASI) theory proposes that sensory processing difficulties interfere with functional participation and adaptive responses.\nSensory Systems:\n1. Proprioceptive System: Muscle spindle and joint receptor inputs; provides calming, organizing effect on the central nervous system. Interventions: 'Heavy work' (carrying weighted balls, pushing therapy balls, wall push-ups, crawling through obstacle courses).\n2. Vestibular System: Inner ear apparatus (semicircular canals and otolith organs) detecting head movement and gravity. Linear acceleration (hammock/glider swinging) promotes calming and organizing; rotary/angular movement is highly stimulating and alerting.\n3. Tactile System: Protective (anterolateral) vs Discriminative (dorsal column) pathways. Tactile Defensiveness: Negative emotional or behavioral reaction to light touch sensations. Management: Deep pressure, proprioceptive input, Wilbarger Brushing Protocol (surgical brush deep pressure strokes followed by joint compressions).\nSensory Diet: A personalized, scheduled daily menu of sensory activities designed to keep the child in an optimal alert state for learning, social engagement, and ADLs."
+  },
+  {
+    "id": "cs_autism_adhd",
+    "source": "Occupational Therapy for Children and Adolescents (Case-Smith & O'Brien, 8th Edition)",
+    "chapter": "Chapter 25: Autism Spectrum Disorder & ADHD",
+    "topics": ["Autism", "ADHD", "TEACCH", "Social Stories", "Handwriting", "Beery VMI"],
+    "content": "Autism Spectrum Disorder (ASD) and ADHD Interventions in OT:\n1. Structured Teaching (TEACCH): Physical organization of therapy room (distinct activity zones), visual schedules, first-then boards, work-station trays with clear start/finish criteria.\n2. Social Stories (Carol Gray): Descriptive, perspective, directive, and affirmative sentences preparing the child for challenging transitions or sensory environments (haircuts, dentist, school cafeteria).\n3. ADHD & Sensory Motor Accommodations: Move-n-sit dynamic cushions, weighted lap pads, wobble chairs, therapy ball seating, scheduled sensory motor movement breaks (5-minute heavy work circuit).\n4. Handwriting Interventions: Pencil grasp progression (palmar supinate -> digital pronate -> static quadrupod -> dynamic tripod grasp). Evaluation with Beery VMI (Visual-Motor Integration), handwriting slant boards, pencil grips, and multi-sensory letter formation (sand trays, Wikki Stix, shaving cream)."
+  }
+]

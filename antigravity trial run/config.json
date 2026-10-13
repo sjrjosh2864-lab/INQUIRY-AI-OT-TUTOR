@@ -1,0 +1,12 @@
+{
+  "api_provider": "gemini",
+  "api_key": "AQ.Ab8RN6LSMl33M34tlVSCkOLD9vdLdwWT6Bh2kEFWTgru9CDARw",
+  "gemini_model": "gemini-3.5-flash-lite",
+  "openai_model": "gpt-4o-mini",
+  "custom_api_url": "",
+  "offline_fallback_enabled": true,
+  "student_name": "trial run",
+  "study_level": "2nd Year BOT",
+  "default_mode": "inquiry",
+  "target_university": "The Tamil Nadu Dr. M.G.R. Medical University"
+}
